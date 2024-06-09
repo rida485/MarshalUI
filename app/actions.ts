@@ -178,11 +178,11 @@ export async function BuyProduct(formData: FormData) {
     success_url:
       process.env.NODE_ENV === "development"
         ? "http://localhost:3000/payment/success"
-        : "marshal-ui.vercel.app/payment/success",
+        : "https://marshal-ui.vercel.app/payment/success",
     cancel_url:
       process.env.NODE_ENV === "development"
         ? "http://localhost:3000/payment/cancel"
-        : "marshal-ui.vercel.app/payment/cancel",
+        : "https://marshal-ui.vercel.app/payment/cancel",
   });
 
   return redirect(session.url as string);
@@ -211,11 +211,11 @@ export async function CreateStripeAccoutnLink() {
     refresh_url:
       process.env.NODE_ENV === "development"
         ? `http://localhost:3000/billing`
-        : `marshal-ui.vercel.app/billing`,
+        : `https://marshal-ui.vercel.app/billing`,
     return_url:
       process.env.NODE_ENV === "development"
         ? `http://localhost:3000/return/${data?.connectedAccountId}`
-        : `marshal-ui.vercel.app/return/${data?.connectedAccountId}`,
+        : `https://marshal-ui.vercel.app/return/${data?.connectedAccountId}`,
     type: "account_onboarding",
   });
 
