@@ -25,7 +25,7 @@ export default function ProductEmail({ link }: { link: string }) {
             <Section className="w-full flex justify-center mt-7">
               <Button
                 href={link}
-                className="text-white bg-blue-500 rounded-lg px-10 py-4"
+                className="text-white bg-blue-600 rounded-lg px-10 cursor-pointer py-4"
               >
                 Your Download Link
               </Button>
