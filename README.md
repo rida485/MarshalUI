@@ -1,15 +1,5 @@
 🚀 Today we are going to create a Digital Marketplace using Next.js 14, Stripe Connect, Kinde, Prisma, Supabase, and Tailwind! Learn step-by-step and elevate your development skills.
 
-🚀 Kinde Auth: https://dub.sh/xeU8r3v
-
-👨🏻‍💻 GitHub Repository: https://janmarshal.com/courses/create-a-digital-marketplace-using-next-js-14-stripe-connect-kinde-prisma-and-supabase
-
-🌍 My Website: https://www.janmarshal.com
-
-✅ Follow me on Twitter: https://twitter.com/janmarshaldev
-
-📧 Business ONLY: jan@alenix.de 
-
 Features: 
 - 🌐 Nextjs App Router
 - 🔐 Kinde Authentication with MFA
